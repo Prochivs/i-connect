@@ -17,11 +17,11 @@ const Home: NextPage = () => {
       </Head>
 
       {/* navbar */}
-      <nav className=" top-0 container mx-auto p-6">
+      <nav className="container mx-auto p-6">
         {/* flex container */}
         <div className="flex items-center justify-between ">
           {/* logo */}
-          <div className=" pt-2">
+          <div className="pt-2">
             <Image src="/img/logo.svg" alt="Logo" width={72} height={16} />
           </div>
           {/* logo end */}
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             {/* button */}
             <a
               href=""
-              className="p-2 px-8 text-button   text-xs font-bold font-clashGroteskSemibold h-8 flex justify-center items-center font-neon"
+              className="p-2 px-8 text-button   text-xs font-bold h-8 flex justify-center items-center font-neon"
             >
               Sign In
             </a>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             {/* button */}
             <a
               href=""
-              className="p-2 px-6 text-white  bg-button rounded-lg text-xs font-bold font-clashGroteskSemibold h-8 flex justify-center items-center font-neon"
+              className="p-2 px-6 text-white  bg-button rounded-lg text-xs font-bold  h-8 flex justify-center items-center font-neon"
             >
               Create An Account
             </a>
@@ -107,9 +107,7 @@ const Home: NextPage = () => {
             {/* button */}
 
             <div className="flex justify-start items-center space-x-2">
-              <h1 className="font-bold font-nunito text-gray-70 font-neon">
-                Trusted by:
-              </h1>
+              <h1 className="font-bold  text-gray-70 font-neon">Trusted by:</h1>
               <Image
                 src="/img/smileypng.png"
                 alt="Logo"
@@ -261,11 +259,14 @@ const Home: NextPage = () => {
 
           <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
             {/* testimonial 01 */}
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"  data-aos="fade-up"
+            <div
+              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
+              data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="300"
               data-aos-duration="700"
-              data-aos-once="false">
+              data-aos-once="false"
+            >
               <img src="img/avatar-anisha.png" className="w-16 -mt-14" alt="" />
               <h5 className="text-lg font-bold font-neon">Anisha Li</h5>
               <p className="text-sm text-gray-500 font-neon">
@@ -277,11 +278,14 @@ const Home: NextPage = () => {
 
             {/* testimonial 02 */}
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:flex md:w-1/3"  data-aos="fade-up"
+            <div
+              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:flex md:w-1/3"
+              data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="500"
               data-aos-duration="700"
-              data-aos-once="false">
+              data-aos-once="false"
+            >
               <img src="img/avatar-ali.png" className="w-16 -mt-14" alt="" />
               <h5 className="text-lg font-bold font-neon">Ali Bravo</h5>
               <p className="text-sm text-gray-500 font-neon">
@@ -292,11 +296,14 @@ const Home: NextPage = () => {
             </div>
 
             {/* testimonial 03 */}
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"  data-aos="fade-up"
+            <div
+              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+              data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="700"
               data-aos-duration="700"
-              data-aos-once="false">
+              data-aos-once="false"
+            >
               <img
                 src="img/avatar-richard.png"
                 className="w-16 -mt-14"
@@ -324,7 +331,7 @@ const Home: NextPage = () => {
       </section>
 
       {/* call to action */}
-      <section id="cta" className="bg-gradient-to-b from-indigo-100 ... mt--90">
+      <section id="cta" className="bg-gradient-to-b from-indigo-100 ... mt--90 pb-20 pt-20">
         <div className="container m-auto  flex flex-col items-center justify-between pt-10 p-10   md:flex-row bg-fuchsia-100 rounded-lg space-y-2 text-center ">
           <h1 className="text-gray-500 text-2xl font-neon font-bold  ">
             Register now and share your testimony to the world
@@ -333,6 +340,35 @@ const Home: NextPage = () => {
             Register
           </a>
         </div>
+      </section>
+
+      {/* footer */}
+      <section
+        id="footer"
+        className=" pt-20 mt--30 bg-footer"
+      >
+        <div className="container m-auto  flex flex-col items-start justify-between pt-10 p-10 md:flex-row   space-y-2 text-center ">
+          <div  className="flex flex-col justify-center md:w-1/4 md:h-32 ">
+            <Image src="/img/logo.svg" alt="Logo" width={72} height={16} />{" "}
+          </div>
+          <div className="flex flex-col items-start justify-start md:w-1/4 ">
+            <a className="font-bold font-neon text-white">Company</a>
+            <a className="font-neon text-white text-sm">About</a>
+            <a className="font-neon text-white text-sm">Blog</a>
+            <a className="font-neon text-white text-sm">Careers</a>
+          </div>
+          <div className="flex flex-col items-start justify-start md:w-1/4">
+            <a className=" font-bold font-neon text-white">Legal</a>
+            <a className="font-neon text-white text-sm">Terms of Use</a>
+            <a className="font-neon text-white text-sm">Privacy Policy</a>
+          </div>
+          <div className="flex flex-col items-start md:w-1/4">
+            <a className="font-bold font-neon text-white">Contact</a>
+            <a className="font-neon text-white text-sm">info@sendstack.africa</a>
+            <a className="font-neon text-white text-sm">sales@sendstack.africa</a>
+          </div>
+        </div>
+        <div className="continer m-auto flex flex-col items-center justify-center font-neon text-white"><h1>© Copyright 2023. Sendstack.Africa</h1></div>
       </section>
     </div>
   );

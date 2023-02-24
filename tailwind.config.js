@@ -17,7 +17,8 @@ module.exports = {
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
         'button':'#a513e2',
-        'purple':'#e7c2f6'
+        'purple':'#e7c2f6',
+        'footer':'#210033'
       },
        fontFamily: {
       'nunito': ['nunito', 'sans-serif'],
