@@ -158,13 +158,13 @@ const Home: NextPage = () => {
       </section>
 
       {/* features section */}
-      <section id="features" className="bg-gradient-to-b from-indigo-100 ...">
+      <section id="features" className="bg-gradient-to-b from-indigo-100 ... ">
         {/* container starts here */}
-        <div className="container flex flex-col px-4 pt-10 mx-auto space-y-0 md:space-y-0 md:flex-row">
+        <div className="container  mt-90 flex flex-col px-4 md:pt-10 mx-auto space-y-0 md:space-y-0 md:flex-row pt-40">
           {/*left side  */}
-          <div className="flex flex-col space-y-12 md:w-1/2 mr-20">
+          <div className="flex flex-col space-y-5 md:w-1/2 mr-20">
             <h2 className="max-w-md text-4xl font-bold text-center md:text-left font-neon">
-              Whats differnt about Manage?
+              Whats different about Manage?
             </h2>
             <p className="max-w sm text center text-gray-500 md:text-left font-neon">
               In publishing and graphic design, Lorem ipsum is a placeholder
@@ -250,7 +250,7 @@ const Home: NextPage = () => {
         id="testimonials"
         className="bg-gradient-to-t from-indigo-100 ... mt--90 pb-10"
       >
-        <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <div className=" flex flex-col max-w-6xl px-5 mx-auto mt-32 text-center">
           <h2 className="text-4xl font-bold text-center font-neon">
             What's Different about Manage
           </h2>
@@ -260,7 +260,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
             {/* testimonial 01 */}
             <div
-              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
+              className="flex flex-col items-center p-6 space-y-2 rounded-lg bg-veryLightGray md:w-1/3"
               data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="300"
@@ -279,7 +279,7 @@ const Home: NextPage = () => {
             {/* testimonial 02 */}
 
             <div
-              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:flex md:w-1/3"
+              className="flex md:mt-0 mt-5 flex-col items-center p-6 space-y-2 rounded-lg bg-veryLightGray  md:flex md:w-1/3"
               data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="500"
@@ -297,7 +297,7 @@ const Home: NextPage = () => {
 
             {/* testimonial 03 */}
             <div
-              className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+              className="flex flex-col md:mt-0 mt-5 items-center p-6 space-y-2 rounded-lg bg-veryLightGray md:flex md:w-1/3"
               data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="700"
