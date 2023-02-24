@@ -28,9 +28,7 @@ const Home: NextPage = () => {
 
           {/* menu--items */}
           <div className="hidden md:flex space-x-6 ">
-            <a href="" className="hover:text-gray-500 font-neon">
-              Pricing
-            </a>
+          
             <a href="" className="hover:text-gray-500 font-neon">
               About us
             </a>
@@ -81,14 +79,14 @@ const Home: NextPage = () => {
           {/* left side */}
           <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
             <h1
-              className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left font-neon"
+              className="max-w-lg text-4xl font-bold text-center md:text-5xl md:text-left font-neon"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-delay="300"
               data-aos-duration="700"
               data-aos-once="false"
             >
-              The Smarter Way to Deliver & Grow
+              The Smarter Way to Share ,Grow & Inspire
             </h1>
             <p className="text-sm font-neon">
               Sendstack helps businesses grow with ease by providing the most
