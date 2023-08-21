@@ -15,7 +15,6 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <iframe frameborder="0" src="https://us-central1-teledoc-b513e.cloudfunctions.net/app/botAgent/r75xxv3hxhj0xp4" style="height:550px; width:100%; position: absolute;right: 20px; bottom: 10px; background:transparent;"></iframe>
       {/* navbar */}
       <nav className="container mx-auto p-6">
         {/* flex container */}
